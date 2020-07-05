@@ -1,0 +1,20 @@
+.imageView {
+    width: 30vw;
+    background-color: #F8F8FF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.imageView p {
+    text-align: center;
+}
+.imageView img {
+    margin: 0px;
+}
+.wide {
+    max-width: 100%;
+    max-height: none;
+}
+.tall {
+    max-width: none;
+    max-height: 100%;
+}

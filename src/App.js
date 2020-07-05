@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import PostView from './PostView.js'
+import PostView from './views/PostView.js'
 import posts from './posts.json'
 import './App.css';
 
