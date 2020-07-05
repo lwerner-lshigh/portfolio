@@ -8,6 +8,19 @@
     margin: 10px;
     position: relative;
 }
+.post-large {
+    border-radius: 10px;
+    text-align: left;
+    width: 100%;
+    max-height: 20vh;
+    box-shadow: 5px 5px 10px 0px rgba(222,222,222,1);
+    margin: 10px;
+    overflow: hidden;
+}
+.header {
+    position: relative;
+    overflow: hidden;
+}
 .center {
     display: flex;
     align-items: center;
@@ -27,7 +40,18 @@
     right: 0;
     padding: 10px;
 }
+.header-content {
+    background-color: rgba(255, 255, 255, 0.533);
 
+}
+.header-content * {
+    margin: 0;
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
+}
+.content {
+    
+}
 .wide {
     max-width: 100%;
     max-height: none;
