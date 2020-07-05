@@ -11,21 +11,16 @@ function PostContent(props) {
       });
 
     return props.content instanceof Array ? (
-        <div className="pages">
-            {
-                props.content.map(item => {
-                    return (<div className="center page">
-                        <div className="post-image">
-                            <div className="center">
-                                <img src={item.image} alt={item.content}/>
-                            </div>
-                            <p>{item.content}</p>
-                        </div>
-                    </div>)
-                }
-            }
-        </div>
-        )
+        props.content.map(item => {
+            return (<div className="center page">
+                <div className="post-image">
+                    <div className="center">
+                        <img src={item.image} alt={item.content}/>
+                    </div>
+                    <p>{item.content}</p>
+                </div>
+            </div>)
+        })
     ) : (
         <div {...morph} className="content">
             <p {...morph} >{props.content}</p>
