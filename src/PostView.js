@@ -2,6 +2,38 @@ import React, { useState } from 'react'
 import { useMorph } from 'react-morph';
 import './PostView.css'
 
+function PostContent(props) {
+    const morph = useMorph({
+        spring: {
+          restDisplacementThreshold: 0.0001,
+          overshootClamping: true,
+        },
+      });
+
+    return props.content instanceof Array ? (
+        <div className="pages">
+            {
+                props.content.map(item => {
+                    return (<div className="center page">
+                        <div className="post-image">
+                            <div className="center">
+                                <img src={item.image} alt={item.content}/>
+                            </div>
+                            <p>{item.content}</p>
+                        </div>
+                    </div>)
+                }
+            }
+        </div>
+        )
+    ) : (
+        <div {...morph} className="content">
+            <p {...morph} >{props.content}</p>
+        </div>
+    );
+}
+
+
 function PostView(props) {
     const [large, setToggle] = useState(false);
     const morph = useMorph({
@@ -21,9 +53,7 @@ function PostView(props) {
                     <h1 >{props.name}</h1>
                 </div>
             </div>
-            <div {...morph} className="content">
-                <p {...morph} >{props.content}</p>
-            </div>
+            <PostContent {...morph} content={props.content}/>
         </div>
     ) : (
     <div {...morph} className="post" onClick={() => setToggle(!large)}>

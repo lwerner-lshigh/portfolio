@@ -25,6 +25,15 @@
         "desc": "Here are some photos I took!",
         "image": "trees.jpg",
         "imgFit": "wide",
-        "content": ""
+        "content": [
+            {
+                "image": "trees.jpg",
+                "content": "Some comment!"
+            }, 
+            {
+                "image": "water-tower.jpg",
+                "content": "some park..."
+            }
+        ]
     }
 ]

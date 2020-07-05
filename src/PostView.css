@@ -40,6 +40,18 @@
     right: 0;
     padding: 10px;
 }
+.post-image {
+    margin: 10px;
+    background-color: #cccccc;
+}
+.post-image img {
+    max-width: 100%;
+    max-height: 50vh;
+}
+.page {
+    width: 50%;
+    height: 50vh;
+}
 .header-content {
     background-color: rgba(255, 255, 255, 0.533);
     padding: 10px;
