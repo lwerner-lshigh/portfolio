@@ -1,6 +1,8 @@
 import React from 'react';
 import './views/ImageCollection'
 import ImageCollection from './views/ImageCollection';
+import MultimediaView from './views/MultimediaView';
+import TextView from './views/TextView';
 
 const testCollection = [
     {
@@ -12,11 +14,18 @@ const testCollection = [
         "desc": "Some sticks everywhere."
     }
 ]
+const testText = `# Some markdown \n hi ok hihihi`
 
 
 function App() {
   return (
-    <ImageCollection images={testCollection}/>
+    <div>
+        <ImageCollection images={testCollection}/>
+        <hr />
+        <MultimediaView images={testCollection} content={testText}/>
+        <hr />
+        <TextView content={testText} />
+    </div>
   );
 }
 
