@@ -11,8 +11,9 @@ function App() {
         <h1>Lukas Werner's Portfolio</h1>
       </header>
       <div className="posts">
-        <PortfolioPost name="React.js Portfolio" desc="This is a short test description." image="reactjs.png"/>
-        <PortfolioPost name="MMWD" desc="Things I made in Multimedia web design" image="water-tower.jpg"/>
+        <PortfolioPost name="React.js Portfolio" desc="This is a short test description." image="reactjs.png" imgFit="wide" />
+        <PortfolioPost name="MMWD" desc="Things I made in Multimedia web design" image="water-tower.jpg" imgFit="wide" />
+        <PortfolioPost name="Photos" desc="Here are some photos I took" image="trees.jpg" imgFit="wide" />
       </div>
     </div>
   );
