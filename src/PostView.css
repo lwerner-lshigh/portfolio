@@ -12,7 +12,7 @@
     border-radius: 10px;
     text-align: left;
     width: 100%;
-    max-height: 20vh;
+    min-height: 20vh;
     box-shadow: 5px 5px 10px 0px rgba(222,222,222,1);
     margin: 10px;
     overflow: hidden;
@@ -42,7 +42,7 @@
 }
 .header-content {
     background-color: rgba(255, 255, 255, 0.533);
-
+    padding: 10px;
 }
 .header-content * {
     margin: 0;
@@ -50,7 +50,7 @@
     padding-bottom: 0.67em;
 }
 .content {
-    
+    padding: 10px;
 }
 .wide {
     max-width: 100%;
@@ -67,4 +67,23 @@
     left: 0;
     right: 0;
     z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+    .post {
+        width: 90%;
+        min-height: 20vh;
+    }
+    .post-large {
+        width: 90%;
+        overflow: scroll;
+    }
+    .header-content * {
+        padding-bottom: 0;
+    }
+    .post-content * {
+        margin-bottom: 0;
+    }
+    .post-content h3 {
+        margin: 0;
+    }
 }

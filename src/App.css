@@ -46,3 +46,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media only screen and (max-width: 768px) {
+  .posts {
+    display: block;
+  }
+}
