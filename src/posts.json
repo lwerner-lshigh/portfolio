@@ -51,5 +51,29 @@
                 "desc": "some park..."
             }
         ]
+    },
+    {
+        "name": "Yellowstone",
+        "desc": "demo deno",
+        "image": "barn.jpg",
+        "imgFit": "wide",
+        "type": "text",
+        "content": "# hello this is a demo \n this is on a new line and is **formated**"
+    }, 
+    {
+        "name": "Attachments Test",
+        "desc": "there should be some attached files now...",
+        "image": "basketball.png",
+        "imgFit": "wide",
+        "type": "attachments",
+        "content": {
+            "text": "this is a little song i wrote note for note.",
+            "files": [
+                {
+                    "file": "robots.txt",
+                    "type": "code"
+                }
+            ]
+        }
     }
 ]
