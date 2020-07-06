@@ -1,0 +1,10 @@
+.attachmentsFilesView {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8F8FF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

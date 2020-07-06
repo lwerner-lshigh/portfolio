@@ -4,6 +4,7 @@
         "desc": "Will this update Live?",
         "image": "barn.jpg",
         "imgFit": "wide",
+        "type": "text",
         "content": "Wazzup! Yoooooo!"
     },
     {
@@ -11,6 +12,7 @@
         "desc": "Developing a simpler way to make my portfolio!",
         "image": "reactjs.png",
         "imgFit": "wide",
+        "type": "text",
         "content": "Hello World! this is a test post of the react portfolio system where this will now become a larger post and this portfolio was made using react which will be available from my github page."
     },
     {
@@ -18,21 +20,35 @@
         "desc": "Things I made in Multimedia web design",
         "image": "water-tower.jpg",
         "imgFit": "wide",
-        "content": ""
+        "type": "multimedia",
+        "content": {
+            "text": "this will be rendered as *markdown*",
+            "images": [
+                {
+                    "src": "barn.jpg",
+                    "desc": "A barn in front of some mountains."
+                },
+                {
+                    "src": "trees.jpg",
+                    "desc": "Some sticks everywhere."
+                }
+            ]
+        }
     },
     {
         "name": "Photos",
         "desc": "Here are some photos I took!",
         "image": "trees.jpg",
         "imgFit": "wide",
+        "type": "photos",
         "content": [
             {
-                "image": "trees.jpg",
-                "content": "Some comment!"
+                "src": "trees.jpg",
+                "desc": "Some comment!"
             }, 
             {
-                "image": "water-tower.jpg",
-                "content": "some park..."
+                "src": "water-tower.jpg",
+                "desc": "some park..."
             }
         ]
     }

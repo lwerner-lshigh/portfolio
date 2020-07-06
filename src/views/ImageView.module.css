@@ -3,6 +3,7 @@
     background-color: #F8F8FF;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 5px 5px 10px 0px rgba(222,222,222,1);
 }
 .imageView p {
     text-align: center;

@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { useMorph } from 'react-morph';
+import TextView from './TextView';
+import MultimediaView from './MultimediaView';
+import ImageCollection from './ImageCollection';
 
 function PostContent(props) {
     const morph = useMorph({
@@ -9,21 +12,8 @@ function PostContent(props) {
         },
       });
 
-    return props.content instanceof Array ? (
-        props.content.map(item => {
-            return (<div className="center page">
-                <div className="post-image">
-                    <div className="center">
-                        <img src={item.image} alt={item.content}/>
-                    </div>
-                    <p>{item.content}</p>
-                </div>
-            </div>)
-        })
-    ) : (
-        <div {...morph} className="content">
-            <p {...morph} >{props.content}</p>
-        </div>
-    );
+    if (props.type === "text") {return (<TextView content={props.content}/>)}
+    else if (props.type === "multimedia") {return (<MultimediaView images={props.content.images} content={props.content.text}/>)}
+    else if (props.type === "photos") {return (<ImageCollection images={props.content}/>)}
 }
 export default PostContent

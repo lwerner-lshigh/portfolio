@@ -24,7 +24,7 @@ function PostView(props) {
                     <h1 >{props.name}</h1>
                 </div>
             </div>
-            <PostContent {...morph} content={props.content}/>
+            <PostContent {...morph} content={props.content} type={props.type}/>
         </div>
     ) : (
     <div {...morph} className="post" onClick={() => setToggle(!large)}>

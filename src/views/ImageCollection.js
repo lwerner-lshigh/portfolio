@@ -3,6 +3,7 @@ import style from './ImageCollection.module.css'
 import ImageView from './ImageView'
 
 function ImageCollection(props) {
+    console.log(props)
     return (<div className={style.imageCollection}>
         {
             props.images.map(image => (

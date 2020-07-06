@@ -13,7 +13,7 @@ function App() {
       </header>
       <div className="posts">
         {posts.map(post => (
-          <PostView name={post.name} desc={post.desc} image={post.image} imgFit={post.imgFit} content={post.content} key={post.name}/>
+          <PostView name={post.name} desc={post.desc} image={post.image} imgFit={post.imgFit} content={post.content} key={post.name} type={post.type}/>
         ))}
       </div>
     </div>
