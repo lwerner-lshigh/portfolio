@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
-import { useMorph } from 'react-morph';
+//import { useMorph } from 'react-morph';
 import TextView from './TextView';
 import MultimediaView from './MultimediaView';
 import ImageCollection from './ImageCollection';
 import AttachmentView from './AttachmentsView';
 
 function PostContent(props) {
-    const morph = useMorph({
+    /*const morph = useMorph({
         spring: {
           restDisplacementThreshold: 0.0001,
           overshootClamping: true,
         },
-      });
+      });*/
 
     if (props.type === "text") {return (<TextView content={props.content}/>)}
     else if (props.type === "multimedia") {return (<MultimediaView images={props.content.images} content={props.content.text}/>)}

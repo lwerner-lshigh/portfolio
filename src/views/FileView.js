@@ -1,12 +1,12 @@
 import style from './FileView.module.css'
 import React from 'react'
 
-const file = (<img src="icons/file.png" alt="file"/>)
-const code = (<img src="icons/code.png" alt="code"/>)
-const driveFile = (<img src="icons/drive-file.png" alt="driveFile"/>)
-const pdf = (<img src="icons/pdf.png" alt="pdf"/>)
-const zip = (<img src="icons/zip.png" alt="zip"/>)
-const image = (<img src="icons/image.png" alt="image" />)
+const file = (<img src="icons/file.png" alt="File Icon"/>)
+const code = (<img src="icons/code.png" alt="Code File Icon"/>)
+const driveFile = (<img src="icons/drive-file.png" alt="Google Drive File Icon"/>)
+const pdf = (<img src="icons/pdf.png" alt="Pdf file icon"/>)
+const zip = (<img src="icons/zip.png" alt="Zip file icon"/>)
+const image = (<img src="icons/image.png" alt="Picture file icon" />)
 
 
 function FileView(props) {

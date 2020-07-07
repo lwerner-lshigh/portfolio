@@ -1,4 +1,4 @@
-import style from './AttachmentsView.module.css'
+//import style from './AttachmentsView.module.css'
 import React from 'react'
 import TextView from './TextView'
 import AttachmentsFilesView from './AttachmentsFilesView'
