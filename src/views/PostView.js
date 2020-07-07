@@ -15,8 +15,8 @@ function PostView(props) {
       });
 
     return large ? (
-        <div {...morph}  className="post-large" onClick={() => setToggle(!large)}>
-            <div {...morph} className="header">
+        <div {...morph}  className="post-large">
+            <div {...morph} className="header" onClick={() => setToggle(!large)}>
                 <div  className="center" id="back">
                     <img  src={props.image} alt={props.title} className={props.imgFit} />
                 </div>

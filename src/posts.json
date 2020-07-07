@@ -72,6 +72,10 @@
                 {
                     "file": "robots.txt",
                     "type": "code"
+                },
+                {
+                    "file": "robots.txt",
+                    "type": "driveFile"
                 }
             ]
         }
