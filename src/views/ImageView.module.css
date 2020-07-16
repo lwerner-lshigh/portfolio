@@ -1,26 +1,26 @@
 .imageView {
-    width: 30vw;
-    background-color: #F8F8FF;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 5px 5px 10px 0px rgba(222,222,222,1);
+  width: 30vw;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 0px rgba(222, 222, 222, 1);
 }
 .imageView p {
-    text-align: center;
+  text-align: center;
 }
 .imageView img {
-    margin: 0px;
+  margin: 0px;
 }
 .wide {
-    max-width: 100%;
-    max-height: none;
+  max-width: 100%;
+  max-height: none;
 }
 .tall {
-    max-width: none;
-    max-height: 100%;
+  max-width: none;
+  max-height: 100%;
 }
 @media only screen and (max-width: 768px) {
-    .imageView {
-        width: 90%;
-    }
+  .imageView {
+    width: 90%;
+  }
 }

@@ -1,7 +1,9 @@
 .imageCollection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
-.imageCollection * {margin: 10px;}
+.imageCollection * {
+  margin: 10px;
+}

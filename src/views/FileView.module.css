@@ -1,24 +1,26 @@
 .fileView {
-    border-radius: 10px;
-    background-color: #f1f1f1;
-    width: 10vw;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 5px 5px 10px 0px rgba(222,222,222,1);
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  width: 10vw;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(222, 222, 222, 1);
 }
 .fileView img {
-    width: 57.6px;
+  width: 57.6px;
 }
 .fileView p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
-a:hover, a:link, a:visited {
-    color: black;
-    text-decoration: none;
+a:hover,
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
 }
 @media only screen and (max-width: 768px) {
-    .fileView {
-        width: 100px;
-    }
+  .fileView {
+    width: 100px;
+  }
 }

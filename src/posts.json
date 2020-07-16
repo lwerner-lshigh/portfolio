@@ -1,83 +1,83 @@
 [
-    {
-        "name": "Live Test",
-        "desc": "Will this update Live?",
-        "image": "barn.jpg",
-        "imgFit": "wide",
-        "type": "text",
-        "content": "Wazzup! Yoooooo!"
-    },
-    {
-        "name": "React.js Portfolio",
-        "desc": "Developing a simpler way to make my portfolio!",
-        "image": "reactjs.png",
-        "imgFit": "wide",
-        "type": "text",
-        "content": "Hello World! this is a test post of the react portfolio system where this will now become a larger post and this portfolio was made using react which will be available from my github page."
-    },
-    {
-        "name": "MMWD",
-        "desc": "Things I made in Multimedia web design",
-        "image": "water-tower.jpg",
-        "imgFit": "wide",
-        "type": "multimedia",
-        "content": {
-            "text": "this will be rendered as *markdown*",
-            "images": [
-                {
-                    "src": "barn.jpg",
-                    "desc": "A barn in front of some mountains."
-                },
-                {
-                    "src": "trees.jpg",
-                    "desc": "Some sticks everywhere."
-                }
-            ]
+  {
+    "name": "Live Test",
+    "desc": "Will this update Live?",
+    "image": "barn.jpg",
+    "imgFit": "wide",
+    "type": "text",
+    "content": "Wazzup! Yoooooo!"
+  },
+  {
+    "name": "React.js Portfolio",
+    "desc": "Developing a simpler way to make my portfolio!",
+    "image": "reactjs.png",
+    "imgFit": "wide",
+    "type": "text",
+    "content": "Hello World! this is a test post of the react portfolio system where this will now become a larger post and this portfolio was made using react which will be available from my github page."
+  },
+  {
+    "name": "MMWD",
+    "desc": "Things I made in Multimedia web design",
+    "image": "water-tower.jpg",
+    "imgFit": "wide",
+    "type": "multimedia",
+    "content": {
+      "text": "this will be rendered as *markdown*",
+      "images": [
+        {
+          "src": "barn.jpg",
+          "desc": "A barn in front of some mountains."
+        },
+        {
+          "src": "trees.jpg",
+          "desc": "Some sticks everywhere."
         }
-    },
-    {
-        "name": "Photos",
-        "desc": "Here are some photos I took!",
-        "image": "trees.jpg",
-        "imgFit": "wide",
-        "type": "photos",
-        "content": [
-            {
-                "src": "trees.jpg",
-                "desc": "Some comment!"
-            }, 
-            {
-                "src": "water-tower.jpg",
-                "desc": "some park..."
-            }
-        ]
-    },
-    {
-        "name": "Yellowstone",
-        "desc": "demo deno",
-        "image": "barn.jpg",
-        "imgFit": "wide",
-        "type": "text",
-        "content": "# hello this is a demo \n this is on a new line and is **formated**"
-    }, 
-    {
-        "name": "Attachments Test",
-        "desc": "there should be some attached files now...",
-        "image": "basketball.png",
-        "imgFit": "wide",
-        "type": "attachments",
-        "content": {
-            "text": "this is a little song i wrote note for note.",
-            "files": [
-                {
-                    "file": "robots.txt",
-                    "type": "code"
-                },
-                {
-                    "file": "robots.txt",
-                    "type": "driveFile"
-                }
-            ]
-        }
+      ]
     }
+  },
+  {
+    "name": "Photos",
+    "desc": "Here are some photos I took!",
+    "image": "trees.jpg",
+    "imgFit": "wide",
+    "type": "photos",
+    "content": [
+      {
+        "src": "trees.jpg",
+        "desc": "Some comment!"
+      },
+      {
+        "src": "water-tower.jpg",
+        "desc": "some park..."
+      }
+    ]
+  },
+  {
+    "name": "Yellowstone",
+    "desc": "demo deno",
+    "image": "barn.jpg",
+    "imgFit": "wide",
+    "type": "text",
+    "content": "# hello this is a demo \n this is on a new line and is **formated**"
+  },
+  {
+    "name": "Attachments Test",
+    "desc": "there should be some attached files now...",
+    "image": "basketball.png",
+    "imgFit": "wide",
+    "type": "attachments",
+    "content": {
+      "text": "this is a little song i wrote note for note.",
+      "files": [
+        {
+          "file": "robots.txt",
+          "type": "code"
+        },
+        {
+          "file": "robots.txt",
+          "type": "driveFile"
+        }
+      ]
+    }
+  }
 ]
